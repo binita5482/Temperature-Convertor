@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    background:linear-gradient(to left bottom, hsl(200, 39%, 60%), hsl(158, 43%, 58%));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container{
+    background-color: hsla(140, 26%, 44%, 0.311);
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+    border-color: hsla(139, 31%, 18%, 0.483);
+    box-shadow: 3px;
+
+}
+
+.container h1{
+    color: hsl(108, 35%, 20%);
+    margin: 20px;    
+}
+
+.temp-container{
+    padding: 25px; 
+}
+
+.temp-container input{
+    float: right;
+    font-size: 20px;
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0.907);
+    padding: 4px;
+}
+
+.temp-container label{
+    font-size: 24px;
+    padding: 4px;
+}
+ 
